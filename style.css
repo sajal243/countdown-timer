@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .timer {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: calc(100% - 20px);
+    color: black;
+    margin: 20px auto;
+    justify-content: center;
+  }
+  
+  .timer div {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    justify-content: center;
+  }
+  
+  input {
+    width: 70px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 15px;
+  }
+  
+  input:focus,
+  input:active {
+    border: none;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    padding: 8px 22px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .start {
+    background-color: darkgreen;
+    color: white;
+  }
+  
+  .stop {
+    display: none;
+  }
+  label,
+  p {
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
